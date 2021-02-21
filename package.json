@@ -1,0 +1,39 @@
+{
+  "name": "react-kjua",
+  "version": "0.0.1",
+  "description": "React component to generate a kjua QR Code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zebedeeio/react-kjua.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "qrcode",
+    "custom",
+    "logo",
+    "opacity",
+    "padding",
+    "kjua",
+    "rounded",
+    "border"
+  ],
+  "author": "fiatjaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zebedeeio/react-kjua/issues"
+  },
+  "homepage": "https://github.com/zebedeeio/react-kjua#readme",
+  "devDependencies": {
+    "@types/react": "^16.4.7",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "kjua": "^0.9.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
