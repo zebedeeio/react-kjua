@@ -1,5 +1,5 @@
 import * as React from 'react';
-import kjua from 'kjua';
+import * as kjua from 'kjua';
 
 export interface IProps {
   // render method: 'canvas', 'image' or 'svg'
