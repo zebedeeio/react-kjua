@@ -5,8 +5,9 @@ React component to generate a [kjua](https://larsjung.de/kjua/) QR Code.
 ## Installation
 
 ```bash
-npm install --save kjua
+npm install --save react-kjua
 ```
+
 ## Usage
 
 ```javascript
