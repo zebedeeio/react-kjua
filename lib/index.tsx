@@ -56,28 +56,6 @@ export class Kjua extends React.PureComponent<IProps, {}> {
   private el: React.RefObject<HTMLCanvasElement>;
   private qr: HTMLCanvasElement;
 
-  public static defaultProps: IProps = {
-    render: 'svg',
-    crisp: true,
-    minVersion: 1,
-    ecLevel: 'L',
-    size: 200,
-    ratio: null,
-    fill: '#333',
-    back: '#fff',
-    text: 'no text',
-    rounded: 0,
-    quiet: 0,
-    mode: 'plain',
-    mSize: 30,
-    mPosX: 50,
-    mPosY: 50,
-    label: 'no label',
-    fontname: 'sans',
-    fontcolor: '#333',
-    image: null
-  };
-
   constructor(props: IProps) {
     super(props);
     this.el = React.createRef();
